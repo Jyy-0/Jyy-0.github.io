@@ -1,0 +1,153 @@
+/*
+author: Jiayao;
+*/
+/*
+========================================
+Typography
+========================================
+*/
+h1, h3, h4, h5, p {
+	/*margin-bottom: 22px;*/
+}
+
+
+.nav {
+	text-align: center;
+	padding: 5px;
+	line-height: 30px;
+	padding-left: 0px;
+	display: inline-block;
+	width: 99%;
+	/*border: solid;*/
+	/*box-shadow:0px 0px 5px gray;*/
+}
+.nav-ele {
+	padding: 5px;
+	font-family: Georgia;
+	border-bottom: 1px solid rgb(205,205,205,0.8);
+}
+.nav-logo {
+	font-family: Georgia;
+	display: inline-block;
+	/*text-align: left;*/
+	/*border: solid;*/
+	width: 30px;
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: tomato;
+}
+#nav-logo-id {
+	color: white;
+}
+.nav-right {
+	display: inline-block;
+	width: 90%;
+
+	/*border: solid;*/
+}
+
+
+body {
+	/*padding: 5px;*/
+	/*background-color: skyblue;*/
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 30px;
+	/*border: solid;*/
+	margin-top: 0px;
+}
+.welcome {
+	/*background: #466368;*/
+	margin: 0px;
+	/*border: solid #949599;*/
+	padding: 50px;
+	padding-left: 70px;
+	padding-bottom: 30px;
+	background: #648880;
+	background: linear-gradient(to right, #f6f1d3, tomato);
+}
+#welcome-quate {
+	color: tomato;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/*p {
+	background: orange;
+	font-size: 24px;
+	font-family: Helvetica;
+}*/
+section {
+	/*border: solid;*/
+}
+
+a {
+	text-decoration: none;
+	color: dimgray;
+}
+a:hover {
+	color: tomato;
+}
+
+.p-para {
+	text-indent: 2em;
+
+}
+
+.col {
+	padding: 50px;
+	padding-left: 60px;
+	/*border: solid gray;*/
+}
+.col-1-2 {
+	/*display: inline-block;*/
+	margin-top: 10px;
+	/*width: 80%;*/
+	/*width: 45%;*/
+	border: 1px solid rgb(205,205,205);
+	border-left: 6px solid rgb(205,205,205,0.8);
+}
+.col-1-2:hover{
+	background-color: tomato;
+	color: white;
+}
+
+
+
+
+/*
+========================================
+Buttons
+========================================
+*/
+
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt {
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px;
+}
+
+
+/*
+===================================
+other pages
+===================================
+*/
+.paragraph {
+	margin: 0 6px 0px 0;
+	padding-left: 50px;
+	padding-top: 20px;
+
+}
+.para-content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
