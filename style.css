@@ -7,8 +7,11 @@ Typography
 ========================================
 */
 
-h1, h3, h4, h5, p {
+h1, h3, h4, h5, p, section {
 	/*margin-bottom: 22px;*/
+	/*font-size: 17px;*/
+	text-indent: 0px;
+	word-spacing: ;
 }
 
 
@@ -51,10 +54,30 @@ h1, h3, h4, h5, p {
 	/*border: solid;*/
 }
 
-
+header {
+	position: fixed;
+	width: 100%;
+	/*background: whitesmoke;*/
+	top: 0px;
+}
 body {
 	/*padding: 5px;*/
 	/*background-color: skyblue;*/
+}
+main {
+}
+footer {
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	/*position: fixed;*/
+	bottom: 0px;
+	left: 0px;
+	/*background: aliceblue;*/
+	border-top: 1px solid lightgray;
+	/*flex: 0 0 auto;*/
+	background: white;
+	opacity:0.5;
 }
 h1 {
 	font-family: Georgia;
@@ -94,15 +117,26 @@ section {
 	padding-left: 30px;
 	padding-bottom: 30px;
 	background: #648880;
-	background: linear-gradient(to right, #f6f1d3, tomato);
+	/*background: linear-gradient(to right, #f6f1d3, tomato);*/
+	background: aliceblue;
+	background: mediumorchid;
+	background: mediumpurple;
+	background: linear-gradient(to top right, #f6f1d3, mediumpurple);
+	background: linear-gradient(to top right, #f6f1d3, dodgerblue);
+	background: linear-gradient(to top right, #f6f1d3, tomato);
+	background: lavender;
+	background: whitesmoke;
+
 }
 #welcome-quate {
 	color: tomato;
+	color: darkslateblue;
 	text-transform: uppercase;
 	font-size: 12px;
 }
 .welcome-title {
 	font-size: 30px;
+	font-family:  /*cursive;system-ui*/
 }
 
 
@@ -128,21 +162,28 @@ a.hovernone:hover {
 	padding: 50px;
 	padding-left: 60px;
 	padding-top: 20px;
+	padding-bottom: 30px;
 	/*border: solid gray;*/
 }
 .intro-box {
 	/*display: inline-block;*/
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: ;
 	/*width: 80%;*/
 	/*width: 45%;*/
 	border: 1px solid rgb(205,205,205);
 	border-left: 6px solid rgb(205,205,205,0.8);
+	/*border-left: 6px solid tomato;*/
 	padding-left: 15px;
 	padding-right: 15px;
+	border-radius: 5px;
+	background: ;
+	/*box-shadow: 6px 6px 2px rgba(255,127,80,.9);*/
 }
 .intro-box:hover{
-	background-color: tomato;
-	color: white;
+	/*background-color: tomato;*/
+	background-color: lightgray;
+	color: black;
 }
 
 .column {
@@ -178,6 +219,24 @@ Buttons
 	padding: 10px 30px;
 }
 
+/* button in contents */
+.button {
+	border-radius: 5px;
+	/*background-color: tomato;*/
+	background-color: black;
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.button a {
+	color: white;
+}
+.button a:hover {
+	color: white;
+}
 
 /*
 ===================================
@@ -199,4 +258,5 @@ other pages
 	margin-top: 4px;
 	/* the paragraph after h3 */
 	margin-bottom: 6px;
+	text-align: justify;
 }
