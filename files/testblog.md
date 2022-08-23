@@ -1,3 +1,9 @@
+---
+title: "test"
+permalink: /
+layout: default
+---
+
 # test blog
 
 ## title
