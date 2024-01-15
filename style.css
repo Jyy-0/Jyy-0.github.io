@@ -77,7 +77,8 @@ footer {
 	border-top: 1px solid lightgray;
 	/*flex: 0 0 auto;*/
 	background: white;
-	opacity:0.5;
+/*	opacity:0.5;*/
+	color: dimgray;
 }
 h1 {
 	font-family: Georgia;
@@ -103,7 +104,7 @@ section {
 	/*---whether change the global font---*/
 	/* "Segoe UI" */
 	/**/
-	font-family: Calibri,"Segoe UI","Times New Roman";
+	font-family: "Times New Roman",Calibri,"Segoe UI","sans-serif","Gill Sans",;
 }
 /*p {
 	font: italic small-caps bold 14px/22px "Helvetica Neue",Helvetica, Arial, sans-serif;
@@ -116,27 +117,33 @@ section {
 	padding: 50px;
 	padding-left: 30px;
 	padding-bottom: 30px;
-	background: #648880;
-	/*background: linear-gradient(to right, #f6f1d3, tomato);*/
-	background: aliceblue;
-	background: mediumorchid;
-	background: mediumpurple;
-	background: linear-gradient(to top right, #f6f1d3, mediumpurple);
-	background: linear-gradient(to top right, #f6f1d3, dodgerblue);
-	background: linear-gradient(to top right, #f6f1d3, tomato);
-	background: lavender;
-	background: whitesmoke;
+/*	background: #648880;*/
+/*	background: linear-gradient(to right, #f6f1d3, tomato);*/
+/*	background: aliceblue;*/
+/*	background: mediumorchid;*/
+/*	background: mediumpurple;*/
+/*	background: linear-gradient(to top right, #f6f1d3, mediumpurple);*/
+/*	background: linear-gradient(to top right, #f6f1d3, dodgerblue);*/
+/*	background: linear-gradient(to top right, #f6f1d3, tomato);*/
+/*	background: lavender;*/
+/*	background: whitesmoke;*/
+/*background-image: './mywebassests/photo.png';*/
+	background-image: url('mywebassets/000010890001.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+/*	background-attachment: fixed;*/
 
 }
 #welcome-quate {
 	color: tomato;
 	color: darkslateblue;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 10px;
 }
 .welcome-title {
-	font-size: 30px;
-	font-family:  /*cursive;system-ui*/
+	font-size: 40px;
+/*	font-family:  "Gill Sans"; cursive; system-ui;*/
+	color: black;
 }
 
 
@@ -152,11 +159,7 @@ a.hovernone:hover {
 	color: black;
 }
 
-.p-para {
-	text-indent: 2em;
-	/*padding-left: 10px;
-	padding-right: 10px;*/
-}
+
 
 .col {
 	padding: 50px;
@@ -200,6 +203,44 @@ a.hovernone:hover {
 .cv-edu {
 	max-width: 520px; /* this is for short and long screen! */
 }
+
+
+
+/*
+========================================
+texts
+========================================
+*/
+.text-highlight-purple {
+	color: tomato;
+}
+
+
+
+/*
+========================================
+paragraphs
+========================================
+*/
+.p-para {
+	text-indent: 2em;
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+}
+
+.p-normal {
+/*	text-indent: 2em;*/
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+}
+
+.p-compact {
+	margin-top: 4px;
+	/* the paragraph after h3 */
+	margin-bottom: 6px;
+	text-align: justify;
+}
+
 
 
 /*
@@ -256,9 +297,3 @@ other pages
 	padding-right: 10px;
 }
 
-.p-compact {
-	margin-top: 4px;
-	/* the paragraph after h3 */
-	margin-bottom: 6px;
-	text-align: justify;
-}
